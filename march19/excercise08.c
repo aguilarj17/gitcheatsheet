@@ -6,13 +6,11 @@
 int main(int argc, char *argv[])
 {
 
- int areas[] = {10, 12, 13, 14, 20};
- char name[] = "Ivan";
+ int areas[] =  {10, 12, 13, 14, 20};//is not unable tha put areas[0] = 100;
+ char name[] = "Ivan";// is not unable assign elements to name and full name because they are char
  char full_name[] = {
 
- 'Z', 'e', 'd',
- ' ', 'A', '.', ' ',
- 'S', 'h', 'a', 'w', '\0'
+ 'I', 'v', 'a', 'n', ' ', 'A', 'g', 'u', 'i', 'l', 'a', 'r', '\0'
  };
  // WARNING: On some systems you may have to change the
  // %ld in this code to a %u since it will use unsigned ints
@@ -36,4 +34,6 @@ int main(int argc, char *argv[])
  name, full_name);
  return 0;
 }
+
+//On the common x86-64 architecture, 32-bit arithmetic is never slower than 64 bit arithmethic. So int is always the same speed or faster than long. On other architectures that don't actually have builtin 32-bit arithmetic, such as the MMIX, this might not hold.
 

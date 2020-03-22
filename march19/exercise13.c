@@ -55,3 +55,10 @@ switch(letter){
 return 0;
 }
 
+//Extra credit
+//Write another program that uses math on the letter to convert it to lowercase, and then remove all the extraneous uppercase letters in the switch. 
+//Use the ',' (comma) to initialize letter in the for-loop
+//Make it handle all of the arguments you pass it with yet another for-loop.
+//Convert this switch-statement to an if-statement . Which do you like better?
+//In the case for 'Y' I have the break outside the if-statement . What's the impact of this and what happens if you move it inside the if-statement . Prove to yourself that you're right.
+
