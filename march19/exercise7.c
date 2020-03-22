@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Exercise 7: More variables, some math
+
 int main(int argc, char** argv){
 
 int bugs = 100;

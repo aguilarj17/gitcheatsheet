@@ -1,6 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+// Exercise 8: Sizes and arrays
+
 int main(int argc, char *argv[])
 {
 
